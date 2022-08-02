@@ -144,22 +144,28 @@ print(first_name + " " + mid_name + " " +  last_name + " " + str(age))
   print(len(shopping_list)) # to find the length of the list
 
 - How to add an item to shopping list 
+  ```
   shopping_list.append("oreos")  # append() adds an item at the end of the list
   print(shopping_list)
-#
+  ```
+  
 -  How to delete an item from our shopping list
+   ```
    shopping_list.remove("milk")   # remove() removes the item given
    print(shopping_list)
-
+   ```
+   
 ### Find out how to replace an item from the list and replace bat with milk
 
-- mixed_list = [1,2,3,"one","two","three"]
-  #            0  1 2  3     4      5
+- mixed_list = [1,2,3,"one","two","three"]  (Indexing : 0,1,2,3,4,5)
+              
+               
   print(mixed_list)
 
 - print 2 & 3 from the above list
 
- print(mixed_list[1])   # output would be 2
- print(mixed_list[3])   # output would be one
+- print(mixed_list[1])   # output would be 2
+ 
+- print(mixed_list[3])   # output would be one
 
- print(mixed_list[1:3])  # outcome would be 2,3
+- print(mixed_list[1:3])  # outcome would be 2,3
