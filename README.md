@@ -172,56 +172,60 @@ print(first_name + " " + mid_name + " " +  last_name + " " + str(age))
 
 
 # Tuples
-# Why do we need tuple ?
-# Lists [] are mutable VS tuples are immutable (not changeable)
-# Syntax for tuple ()
-# What are the use cases?
+### Why do we need tuple ?
+### Lists [] are mutable VS tuples are immutable (not changeable)
+### Syntax for tuple ()
+### What are the use cases?
 
-# essential =("city", "DOB", "place of birth")
-# print(essential)
-# print(type(essential))   #to find the type
+- essential =("city", "DOB", "place of birth")
+- print(essential)
+- print(type(essential))   #to find the type
 #
-# # Indexing 0 =city, 1= DOB, 2= pace of birth
+- Indexing 0 =city, 1= DOB, 2= pace of birth
 #
-# print(essential[1])
+- print(essential[1])
 #
-# essential[0] ="town"
-# print(essential)  # will show an error, you can't change, it's immutable
+- essential[0] ="town"
+- print(essential)  # will show an error, you can't change, it's immutable
 
-# What is dictionary {} ?
-# Dictionary can have all types of data collection -
-# Dict work as "KEY":"VALUE" pair
+### What is dictionary {} ?
+### Dictionary can have all types of data collection -
+### Dict work as "KEY":"VALUE" pair
+```
+ devops_student_1 = {
+    "key": "value",
+     "name": "james"
 
-# devops_student_1 = {
-#     "key": "value",
-#     "name": "james"
-#
-# }
-# print(devops_student_1)
-# print(type(devops_student_1))
-#
-# print(devops_student_1["name"])   #  for indexing, you need to add key value in []to call it's value.
+ }
+ print(devops_student_1)
+ print(type(devops_student_1))
 
-#devops_student_1 = {
-   # "key": "value",
-   # "name": "james",
-    #"stream": "tech",
-    #"completed_lessons": 3, #int
-    #"complete_lessons_name": ["lists", "operations", "builtin methods"]
+ print(devops_student_1["name"])   #  for indexing, you need to add key value in []to call it's value.
+```
 
-#}
-#print(devops_student_1)
-#print(devops_student_1.keys())
-#print(devops_student_1.values())
+```
+devops_student_1 = {
+    "key": "value",
+    "name": "james",
+    "stream": "tech",
+    "completed_lessons": 3, #int
+    "complete_lessons_name": ["lists", "operations", "builtin methods"]
 
-# Find out how to delete an item from dict and delete operations
-# Find out how to change completed lesson from 3 to 2
-# del(devops_student_1["stream"])  # del command to delete an item from a dictionary
-# devops_student_1["completed_lessons"] = 2  #  reassign using the index
+}
+print(devops_student_1)
+print(devops_student_1.keys())
+print(devops_student_1.values())
+```
 
-# Control Flow
 
-# if , elif, else statements - conditional statements
+- Find out how to delete an item from dict and delete operations
+- Find out how to change completed lesson from 3 to 2
+- del(devops_student_1["stream"])  # del command to delete an item from a dictionary
+- devops_student_1["completed_lessons"] = 2  #  reassign using the index
+
+## Control Flow
+
+## if , elif, else statements - conditional statements
 
 ````
 weather = "sunny"
