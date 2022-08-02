@@ -90,12 +90,12 @@ print(len(example_string.strip()))
 - example_text = "here's some text with lot's of text"
 - print(example_text.count("text"))
 #
-# # find a method to bring the statement in capital letter
+## find a method to bring the statement in capital letter
 #
 - print(example_text.capitalize())
 - print(example_text.islower())  # to find if statement is in lower case
 #
-# # how to replace text within the string
+## how to replace text within the string
 - print(example_text.replace("with ", "t "))   # replace() is used to replace characters
 
 
