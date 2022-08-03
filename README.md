@@ -233,3 +233,154 @@ elif weather == "dry":
 else:
     print("hope for the best") # this will be executed if weather isn't sunny
 ````
+
+# if elif and else
+
+# loops- for and while loops
+# not to repeat yourself
+# loops help us to ITERATE data collection - DATA
+
+# let's create a list to use for loop to iterate through it
+
+#shopping_list = ["fruits", "milk", "cream","bread"]
+#print(shopping_list)
+
+#print each item of the list as a list
+# fruits
+#milk
+#cream
+#bread
+
+# print(shopping_list[0])  # first option
+# print(shopping_list[1])
+# print(shopping_list[2])
+# print(shopping_list[3])
+
+# Another way
+
+#for item in shopping_list:
+   # print(item)
+
+# does the list have milk
+# if milk is found in the list stop the program
+
+ #   if item == "milk":
+  #   break
+
+# create a dictionary with 6 key value pair
+# use for loop to iterate through it
+# print only keys
+# print only values
+# print key with matching value
+
+```
+Dict = {
+
+    "John": "Cannon",
+    "steve": "carrel",
+    "Ron": "Robbinson",
+    "Mark": "Johnson",
+    "Raj": "Shah",
+    "Jim": "Carrey"
+
+
+}
+for name in Dict:
+    print(name)
+
+print(Dict.keys())
+print(Dict.values())
+print(Dict)
+
+for key in Dict:
+    print(key)
+
+for value in Dict:
+    print(value)
+    
+```
+
+### Use case of multiple conditions
+- Create a list with int values 1-4
+ data_list = [1,2,3,4]
+- iterate through the list using for loop
+- for number in data_list:
+- find 3 and print if found
+     if number ==3:
+         print("found 3")
+#
+- or else list number greater than 3 print gone too far
+     elif number > 3:
+         print("gone too far")
+- otherwise print too soon
+     else:
+         print("too soon")
+
+## While loop
+## while loops are mostly used as a monitor rather than handling items
+
+ number = 0
+- iterate while number is less than 10
+ while number < 10:
+- print the number with message stating it's working
+    print(f"it's working -- > {number}")
+- add +1 in every iteration
+    number += 1
+
+#age = input("please enter your age")
+- print a message stating your age is whatever the input user entered
+#print(f"your age is {age}")
+
+user_prompt = True  # that means user entered somthing
+
+while user_prompt:
+    age = input("Please Enter your Age")
+    if age.isdigit() and age<117:
+        user_prompt= False  # stop prompting user
+
+    else:
+        print("Please enter numbers only")
+
+print(f"your age is {age}")
+
+- Using the above use case also check if the user age is less than 117 years before you end the while loop
+- In order to do that you may need to use casting
+- In other words may need to convert age into int
+
+
+# Functions
+- What is a function
+- Why do we need it
+- Dry - DO NOT REPEAT YOURSELF
+- Syntax def function_name():
+- you need to call function
+
+
+-First iteration
+````
+def greet_user():
+     print("welcome")
+
+greet_user()
+````
+- greet the user with their name
+- prompt the user to enter their name
+- display a welcome message together with their name
+
+````
+ def greet_user(name):
+     print("Welcome " + name)
+
+greet_user("Arpit")
+````
+
+- create a function called add that takes 2 arguments as integers
+- add both values and display the result
+
+````
+def add(value1,value2):
+    print(value1 + value2)
+
+
+add(11,2)
+````
