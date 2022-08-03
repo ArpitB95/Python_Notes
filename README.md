@@ -241,42 +241,42 @@ else:
 
 # if elif and else
 
-# loops- for and while loops
-# not to repeat yourself
-# loops help us to ITERATE data collection - DATA
+- loops- for and while loops
+- not to repeat yourself
+- loops help us to ITERATE data collection - DATA
 
-# let's create a list to use for loop to iterate through it
+- let's create a list to use for loop to iterate through it
 
-#shopping_list = ["fruits", "milk", "cream","bread"]
-#print(shopping_list)
+shopping_list = ["fruits", "milk", "cream","bread"]
+print(shopping_list)
 
-#print each item of the list as a list
-# fruits
-#milk
-#cream
-#bread
+- print each item of the list as a list
+- fruits
+-milk
+-cream
+-bread
 
-# print(shopping_list[0])  # first option
-# print(shopping_list[1])
-# print(shopping_list[2])
-# print(shopping_list[3])
+- print(shopping_list[0])  # first option
+- print(shopping_list[1])
+- print(shopping_list[2])
+- print(shopping_list[3])
 
-# Another way
+### Another way
 
-#for item in shopping_list:
-   # print(item)
+for item in shopping_list:
+    print(item)
 
-# does the list have milk
-# if milk is found in the list stop the program
+### does the list have milk
+### if milk is found in the list stop the program
 
- #   if item == "milk":
-  #   break
+    if item == "milk":
+     break
 
-# create a dictionary with 6 key value pair
-# use for loop to iterate through it
-# print only keys
-# print only values
-# print key with matching value
+- create a dictionary with 6 key value pair
+- use for loop to iterate through it
+- print only keys
+- print only values
+- print key with matching value
 
 ```
 Dict = {
